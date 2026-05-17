@@ -69,7 +69,7 @@ print(df.groupby('Category')[['Sales', 'Profit']].sum())
 
 
 #### Google Sheets Dashboard
-[View Dashboard in Google Sheets](https://docs.google.com/spreadsheets/d/1d7lbQ6zw8-QuzGL_5ZH7LqNjotX80u2oB4P12c7LxVA/edit?usp=sharing)
+[View Dashboard in Google Sheets](https://docs.google.com/spreadsheets/d/1mD8tOOy_lFLjZ8goKT5IZswukqION-kmIjecqqgRK-U/edit?usp=sharing)
 
 ## Services I Can Offer
 - Power BI dashboard creation for business reporting
@@ -80,7 +80,7 @@ print(df.groupby('Category')[['Sales', 'Profit']].sum())
 
 ## Contact
 - **Email:** prmoha@gmail.com
-- **Upwork:** [Add your Upwork profile link]
+- **Upwork:** [https://www.upwork.com/freelancers/~01f1a46bcf0726b395?mp_source=share]
 
 ## Notes
 This repository is part of my growing data analytics portfolio. More projects will be added covering dashboarding, SQL analysis, reporting automation, and business insights.
