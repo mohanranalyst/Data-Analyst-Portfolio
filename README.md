@@ -26,9 +26,8 @@ This project analyzes Superstore sales data to uncover trends in sales, profit, 
 - **Google Sheets** — dashboard reporting and online sharing
 
 #### Project Files
-- `Superstore.csv` — raw dataset
-- `superstore_sales_analysis.ipynb` — Python analysis notebook
-- `SQL_Queries.sql` — SQL queries used for business analysis
+- `SuperStore_Python_Project.ipynb` — Python analysis notebook
+- `SuperStore_SQL_Project.sql` — SQL queries used for business analysis
 - `PowerBI_Dashboard.png` — dashboard preview image
 
 #### What Was Done
