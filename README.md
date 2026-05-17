@@ -1,72 +1,86 @@
-# Data Analyst Portfolio — Mohan R
+# Data Analyst Portfolio
 
-## 👋 About Me
-**BE + MTech in CSE | Data Analyst | Pondicherry, India**
+## About Me
 
-I am a data analyst with expertise in **SQL, Power BI, Python, and Excel/Google Sheets**.
-I help businesses turn raw data into clear, actionable dashboards and reports
-that support faster and smarter decision-making.
+Hi, I'm Mohan, a data analyst focused on turning raw data into clear dashboards, reports, and actionable business insights. I work with Excel, SQL, Python, and Power BI to clean data, analyze performance, and build reporting solutions for business decision-making.
 
-📧 Available for freelance work on Upwork
-🛠️ Tools: SQL | Power BI | Python (Pandas, Matplotlib) | Excel | Google Sheets
+I am available for freelance projects involving dashboard creation, KPI reporting, SQL analysis, Excel reporting, and business insight generation.
 
----
+## Portfolio Project
 
-## 📁 Projects
+### 1. Retail Sales Performance Analysis
 
----
+#### Project Overview
+This project analyzes Superstore sales data to uncover trends in sales, profit, discounting, product categories, customer segments, and regional performance. The goal was to convert raw business data into a structured analysis and interactive dashboard that supports faster and better decisions.
 
-### 1. Superstore Sales Analysis
-**Tools Used:** Google Sheets | SQL | Python | Power BI
+#### Dataset Information
+- Source: Superstore sales dataset
+- Records: 9,994 rows
+- Fields: Order details, sales, profit, discount, category, sub-category, region, segment, and shipping information
 
-**Business Problem:**
-A retail superstore wanted to understand which regions, categories,
-and products were driving profits — and which were causing losses.
+#### Tools Used
+- **Excel** — initial data review and spreadsheet analysis
+- **SQL** — querying, filtering, aggregation, and business reporting
+- **Python** — data cleaning, preprocessing, and analysis
+- **Power BI** — dashboard creation and data visualization
+- **Google Sheets** — dashboard reporting and online sharing
 
-**Dataset:**
-- Source: Kaggle Superstore Dataset
-- Size: 9,994 rows | 21 columns
-- Fields: Order Date, Region, Category, Sub-Category, Sales, Profit, Quantity, Discount
+#### Project Files
+- `Superstore.csv` — raw dataset
+- `superstore_sales_analysis.ipynb` — Python analysis notebook
+- `SQL_Queries.sql` — SQL queries used for business analysis
+- `PowerBI_Dashboard.png` — dashboard preview image
 
-**What I Did:**
-- Cleaned and explored the data using **SQL** (filtering, grouping, aggregating)
-- Performed **Exploratory Data Analysis (EDA)** using **Python** (Pandas + Matplotlib)
-- Built a **Google Sheets dashboard** for quick summary reporting
-- Created an interactive **Power BI dashboard** with KPIs, filters, and drill-downs
+#### What Was Done
+- Cleaned and reviewed the raw dataset
+- Analyzed sales and profit trends across categories and regions
+- Identified high-performing and low-performing products
+- Examined the relationship between discounting and profitability
+- Built visual dashboards for KPI tracking and business review
 
-**Key Insights:**
-- 📍 **West region** generated the highest sales revenue
-- 🪑 **Tables sub-category** had the highest losses despite decent sales volume
-- 💡 **Technology category** had the best profit margins overall
-- 📉 Heavy discounting above 30% consistently led to negative profit
+#### Key Insights
+- Some categories generated strong sales but weaker profit margins
+- High discounts often reduced profitability in certain products and segments
+- Regional performance varied significantly across sales and profit
+- A few products contributed high revenue while others consistently underperformed
 
-**Project Files:**
-| File | Description |
-|------|-------------|
-| [SuperStore_SQL_Project.sql](./SuperStore_SQL_Project.sql) | SQL queries for data cleaning and analysis |
-| [SuperStore_Python_Project.ipynb](./SuperStore_Python_Project.ipynb) | Python EDA with charts and insights |
-| [PowerBI_Dashboard.png](./PowerBI_Dashboard.png) | Power BI dashboard screenshot |
-| [Google Sheets Dashboard](https://docs.google.com/spreadsheets/d/1mD8tOOy_lFLjZ8goKT5IZswukqION-kmIjecqqgRK-U/edit?usp=sharing) | Interactive spreadsheet dashboard |
+#### Business Impact
+- Helped identify which regions and categories drive the most revenue
+- Highlighted loss-making products and the effect of high discounting on profit
+- Provided a dashboard for faster review of KPIs, category performance, and regional trends
 
-**Power BI Dashboard Preview:**
+#### SQL Analysis Preview
+```sql
+SELECT Category, SUM(Sales) AS Total_Sales, SUM(Profit) AS Total_Profit
+FROM Superstore
+GROUP BY Category
+ORDER BY Total_Sales DESC;
+```
 
-![Power BI Dashboard](./PowerBI_Dashboard.png)
+#### Python Analysis Preview
+```python
+import pandas as pd
 
----
+df = pd.read_csv('Superstore.csv')
+print(df.groupby('Category')[['Sales', 'Profit']].sum())
+```
 
-## 🛠️ Skills
+#### Power BI Dashboard Preview
 
-| Category | Tools |
-|----------|-------|
-| Dashboarding | Power BI, Google Sheets |
-| Database | SQL (MySQL / PostgreSQL) |
-| Programming | Python (Pandas, Matplotlib, Seaborn) |
-| Spreadsheets | Excel, Google Sheets (Pivot Tables, Charts, Formulas) |
-| Analysis | EDA, KPI Design, Data Cleaning, Data Transformation |
 
----
+#### Google Sheets Dashboard
+[View Dashboard in Google Sheets](https://docs.google.com/spreadsheets/d/1d7lbQ6zw8-QuzGL_5ZH7LqNjotX80u2oB4P12c7LxVA/edit?usp=sharing)
 
-## 📬 Contact
-- 💼 Upwork: *(https://www.upwork.com/freelancers/~01f1a46bcf0726b395?mp_source=share)*
-- 📍 Location: Pondicherry, India
-- 🕐 Availability: 12 hours/day | Open to freelance projects
+## Services I Can Offer
+- Power BI dashboard creation for business reporting
+- SQL data extraction, analysis, and KPI reporting
+- Excel and Google Sheets reporting dashboards
+- Python-based data cleaning and analysis
+- Sales, operations, and performance analysis
+
+## Contact
+- **Email:** prmoha@gmail.com
+- **Upwork:** [Add your Upwork profile link]
+
+## Notes
+This repository is part of my growing data analytics portfolio. More projects will be added covering dashboarding, SQL analysis, reporting automation, and business insights.
