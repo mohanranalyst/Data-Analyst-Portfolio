@@ -65,7 +65,7 @@ print(df.groupby('Category')[['Sales', 'Profit']].sum())
 ```
 
 #### Power BI Dashboard Preview
-
+![Power BI Dashboard](./PowerBI_Dashboard.png)
 
 #### Google Sheets Dashboard
 [View Dashboard in Google Sheets](https://docs.google.com/spreadsheets/d/1mD8tOOy_lFLjZ8goKT5IZswukqION-kmIjecqqgRK-U/edit?usp=sharing)
