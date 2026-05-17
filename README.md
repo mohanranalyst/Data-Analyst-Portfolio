@@ -67,6 +67,6 @@ and products were driving profits — and which were causing losses.
 ---
 
 ## 📬 Contact
-- 💼 Upwork: *(paste your Upwork profile link here)*
+- 💼 Upwork: *(https://www.upwork.com/freelancers/~01f1a46bcf0726b395?mp_source=share)*
 - 📍 Location: Pondicherry, India
 - 🕐 Availability: 12 hours/day | Open to freelance projects
