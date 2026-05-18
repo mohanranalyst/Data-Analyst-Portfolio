@@ -70,6 +70,49 @@ print(df.groupby('Category')[['Sales', 'Profit']].sum())
 #### Google Sheets Dashboard
 [View Dashboard in Google Sheets](https://docs.google.com/spreadsheets/d/1mD8tOOy_lFLjZ8goKT5IZswukqION-kmIjecqqgRK-U/edit?usp=sharing)
 
+
+---
+
+### 2. HR Analytics Dashboard
+
+**Tools:** Power BI | SQL | Python | Excel
+
+**Dataset:** IBM HR Analytics Employee Attrition Dataset (1,470 employees)
+
+**Key Insights:**
+- Overall attrition rate: 16.1% (237 out of 1,470 employees)
+- Highest attrition in Sales department and employees aged 25-35
+- Employees with low job satisfaction and frequent travel show highest attrition
+- Monthly income and job level are key retention factors
+
+**Files:**
+- `HR_SQL_Analysis.sql` - SQL queries for attrition and performance analysis
+- `HR_Python_EDA.py` - Python EDA with charts and statistical summaries
+- `HR_Dashboard.png` - Power BI dashboard screenshot
+
+**Repository:** [HR-Analytics-Dashboard](https://github.com/mohanranalyst/HR-Analytics-Dashboard)
+
+---
+
+### 3. Finance Analytics Dashboard
+
+**Tools:** Power BI | SQL | Python | Excel
+
+**Dataset:** Financial Sample Dataset (700 rows, 6 countries, 5 products)
+
+**Key Insights:**
+- Total Gross Sales: $127.93M across 6 countries
+- Profit Margin: 13.21% overall
+- Germany and Canada are top revenue contributors
+- Government segment drives highest profit
+- Paseo product is the top-selling product across all markets
+
+**Files:**
+- `Finance_SQL_Analysis.sql` - SQL queries for revenue and profit analysis
+- `Finance_Python_EDA.py` - Python EDA with visualizations
+- `Finance_Dashboard.png` - Power BI dashboard screenshot
+
+**Repository:** [Finance-Analytics-Dashboard](https://github.com/mohanranalyst/Finance-Analytics-Dashboard)
 ## Services I Can Offer
 - Power BI dashboard creation for business reporting
 - SQL data extraction, analysis, and KPI reporting
